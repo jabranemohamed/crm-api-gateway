@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 457841858392-7b4hpdu60o2k65ujg0fc2nrqgihl5tqs.apps.googleusercontent.com
+            client-secret: ib6ttVMUw-DaauJ0nW1F40b2
+  cloud:
+     config:
+       uri: http://localhost:8012
+       name: CRMAPIConfigServer
